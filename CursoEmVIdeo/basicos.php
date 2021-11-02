@@ -61,6 +61,13 @@
 
         // Método GET com formulário (Enviar informação) no arquivo dados.php
 
+        // Inserindo datas
+        echo "<br>"."Hoje é dia: ". date('d/m/Y');
+
+        // Inserindo Horário
+        date_default_timezone_set('America/Sao_Paulo');
+        echo "<br>"."Hora atual: ". date('H:i');
+
     ?>
     </div>
     
