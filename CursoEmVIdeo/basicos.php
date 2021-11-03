@@ -12,7 +12,7 @@
     
     <div>
     
-    <form action="dados.php" method="get">
+    <form action="basicos_dados.php" method="get">
         <!-- Form para calculo de raíz -->
         <!-- Raíz de: <input type="text" name="v"/>
         <input type="submit" value="Calcular"/> -->
@@ -62,10 +62,10 @@
         // Método GET com formulário (Enviar informação) no arquivo dados.php
 
         // Inserindo datas
+        date_default_timezone_set('America/Sao_Paulo');
         echo "<br>"."Hoje é dia: ". date('d/m/Y');
 
         // Inserindo Horário
-        date_default_timezone_set('America/Sao_Paulo');
         echo "<br>"."Hora atual: ". date('H:i');
 
     ?>
