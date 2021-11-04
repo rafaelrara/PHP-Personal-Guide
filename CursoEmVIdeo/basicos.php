@@ -22,6 +22,8 @@
         Nome: <input type="text" name="nome"/><br>
         Ano de Nascimento: <input type="number" name="ano"/><br>
         Sexo: <input type="text" name="sexo"/><br>
+        Nota 1: <input type="number" name="nota_1"/><br>
+        Nota 2: <input type="number" name="nota_2"/><br>
         <input type="submit" value="Enviar"/>
 
     </form>
@@ -67,6 +69,8 @@
 
         // Inserindo Horário
         echo "<br>"."Hora atual: ". date('H:i');
+
+        // Estrutura condicional esta descrito em basicos_dados.php
 
     ?>
     </div>

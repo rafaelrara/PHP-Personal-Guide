@@ -50,3 +50,8 @@ span.foco {
 	padding: 8px;
 	box-shadow: 2px 2px 1px #aaaaaa;
 }
+
+.input_align{
+    margin: 100px;
+    background-color: #273747;
+}
