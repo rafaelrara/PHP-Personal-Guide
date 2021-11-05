@@ -70,7 +70,9 @@
         // Inserindo Horário
         echo "<br>"."Hora atual: ". date('H:i');
 
-        // Estrutura condicional esta descrito em basicos_dados.php
+        // Estruturas condicionais esta descrito em basicos_dados.php
+
+        // Estruturas de repetição esta descrito em basicos_dados.php
 
     ?>
     </div>
